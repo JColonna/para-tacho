@@ -1,0 +1,227 @@
+#grids {
+  display: grid;
+  grid-template-areas: "header header header"  "carousel carousel carousel" "nosotros nosotros nosotros" "servicios servicios servicios" "contacto contacto contacto" "footer footer footer";
+  grid-template-columns: auto;
+  grid-template-rows: 6% 22% 8% auto 22% 1%;
+  height: 450vh;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+}
+
+.header {
+  grid-area: header;
+  padding-top: 1rem;
+}
+
+.carrusel {
+  grid-area: carousel;
+}
+
+.nosotros {
+  grid-area: nosotros;
+}
+
+.servicios {
+  grid-area: servicios;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+#contacto {
+  grid-area: contacto;
+  }
+
+.contenidoHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.menu {
+  margin: 1% 10% 0 0;
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin: 0 14% 0 0;
+  
+}
+
+.flexLogo {
+  display: flex;
+}
+.flexLogo h1 {
+  font-size: 100%;
+}
+
+.flexMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexContacto {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+/*Reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+/* Header*/
+.logo img {
+  height: 8rem;
+  width: 8rem;
+  margin: 0 3rem 5rem 3rem;
+  padding-bottom: 1rem;
+ 
+}
+
+
+header {
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  height: 25vh;
+}
+.titulo {
+  text-align: center;
+  font-family: 'Lobster', 'sans-serif';
+
+}
+
+.menu a {
+  color: black;
+  padding-top: 3rem;
+  
+}
+
+/* Section */
+.carrusel div img {
+  height: 100%;
+  max-height: 88vh;
+}
+
+/* Nosotros*/
+.nosotros {
+  color: black;
+  background-color: whitesmoke;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.nosotros p {
+  line-height: 1.5rem;
+  padding: 0 1rem 0 1rem;
+  
+}
+
+/*Main*/
+main {
+  background-color: #EFEFEF;
+}
+main h2 {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 700;
+  font-style: inherit;
+}
+main ul {
+  list-style: url(/img/arrow-right-square.svg);
+}
+
+.imgServicios, .imgServicios1 {
+  height: 30%;
+  width: 40%;
+  max-height: 300px;
+  margin-top: 3%;
+}
+
+.imgServicios1 {
+  margin-top: 4%;
+  height: 15rem;
+  width: 30rem;
+}
+
+.textoServicios, .textoServicios1 {
+  margin-top: 3%;
+}
+.textoServicios2{
+  margin: 3% 0 0 17%;
+}
+
+.textoServicios1 {
+  margin-right: 2.5%;
+}
+.title {
+  text-decoration: underline;
+
+}
+/*Contacto*/
+#contacto {
+  background-color: whitesmoke;
+  color: black;
+  margin-top: 2%;
+
+}
+#contacto h3 {
+  margin-top: 1%;
+  text-align: center;
+}
+.tam {
+  width: 27.5rem;
+  
+}
+
+form {
+  padding: 1% 0 0 0%;
+}
+form p {
+  width: 50%;
+}
+
+.botonA {
+  padding: 2% 15% 2% 15%;
+  margin: 2% 0% 2% 18%;
+  
+}
+
+
+.titleContact 
+{
+  margin-top: 5%;
+}
+
+.margin {
+  margin-bottom: 7%;
+}
+
+iframe {
+
+  width: 100%;
+  height: 40vh;
+}
+
+/* Footer */
+footer {
+  color: #06389c;
+}
+footer ul {
+  margin-right: 5%;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
